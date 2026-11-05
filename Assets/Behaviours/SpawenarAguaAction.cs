@@ -5,7 +5,7 @@ using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "SpawenarAgua", story: "[Self] extrae agua y la guarda en [AguaActual]", category: "Action/Hormiga", id: "3d1ba2b95451e49e9f5642b5f34f40e0")]
+[NodeDescription(name: "SpawenarAgua", story: "[Self] extrae agua de [zonaDeAgua] y la guarda en [AguaActual]", category: "Action/Hormiga", id: "3d1ba2b95451e49e9f5642b5f34f40e0")]
 public partial class SpawenarAguaAction : Action
 {
 

@@ -5,7 +5,7 @@ using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "RecogerCaca", story: "[Self] recoge [CualquierCosa]", category: "Action", id: "0ba475fc11b81e00837918db6ecf37db")]
+[NodeDescription(name: "Recoger", story: "[Self] recoge [CualquierCosa]", category: "Action", id: "0ba475fc11b81e00837918db6ecf37db")]
 public partial class RecogerCacaAction : Action
 {
 
@@ -15,7 +15,10 @@ public partial class RecogerCacaAction : Action
     protected override Status OnStart()
     {
         if (Self.Value == null || CualquierCosa.Value == null)
+        {
+            Debug.Log("RecogerCacaAction: Self o CualquierCosa es null");
             return Status.Failure;
+        }
 
         // Hacer que la caca sea hija de la hormiga (se mueve con ella)
         CualquierCosa.Value.transform.SetParent(Self.Value.transform);

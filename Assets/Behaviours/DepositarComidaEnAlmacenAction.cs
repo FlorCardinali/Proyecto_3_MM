@@ -5,7 +5,7 @@ using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "DepositarComidaEnAlmacen", story: "[Self] deposita [ComidaActual] en el almacen", category: "Action/Hormiga", id: "e0f465e3c96a3db4d6deb68013e55411")]
+[NodeDescription(name: "DepositarComidaEnAlmacen", story: "[Self] deposita [ComidaActual] en [zonaDeAlmacen]", category: "Action/Hormiga", id: "e0f465e3c96a3db4d6deb68013e55411")]
 public partial class DepositarComidaEnAlmacenAction : Action
 {
     [SerializeReference] public BlackboardVariable<GameObject> Self;

@@ -5,7 +5,7 @@ using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "SpawnearComidaGranja", story: "[Self] fabrica comida y la guarda en [ComidaActual]", category: "Action/Hormiga", id: "3511d266715f9466724ea12c210f9f59")]
+[NodeDescription(name: "SpawnearComidaGranja", story: "[Self] fabrica comida en [zonaDeGranja] y la guarda en [ComidaActual]", category: "Action/Hormiga", id: "3511d266715f9466724ea12c210f9f59")]
 public partial class SpawnearComidaGranjaAction : Action
 {
     [SerializeReference] public BlackboardVariable<GameObject> Self;
