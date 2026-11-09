@@ -10868,6 +10868,152 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4223625240727086061, guid: ec25d2c2dd1064f4db223a16d49d6842, type: 3}
   m_PrefabInstance: {fileID: 1678139721}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1682650278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 746846405948548623, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 746846405948548623, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 746846405948548623, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 746846405948548623, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895605809112093283, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_Name
+      value: Larva
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.43069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4510403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3895605809112093283, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1682650280}
+  m_SourcePrefab: {fileID: 100100000, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+--- !u!1 &1682650279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3895605809112093283, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+  m_PrefabInstance: {fileID: 1682650278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1682650280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682650279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
+  m_Graph: {fileID: 8020606202947969654, guid: 8edc8b707bd38a34abbac5e5d1a77fef, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 2743110094223048838
+  - rid: 2427202910335271483
+  - rid: 2427202910335271482
+  - rid: 2427202910335271481
+  - rid: 2427202910335271480
+  m_OriginalGraph: {fileID: 8020606202947969654, guid: 8edc8b707bd38a34abbac5e5d1a77fef, type: 2}
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2427202910335271480
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12495057453415820159
+          m_Value1: 17564675943705278331
+        Name: Reina
+        m_Value: {fileID: 1893500622}
+    - rid: 2427202910335271481
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12338441609123196468
+          m_Value1: 5223988963045162834
+        Name: Hromiga
+        m_Value: {fileID: 2067966891}
+    - rid: 2427202910335271482
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 16324856852540920044
+          m_Value1: 131420217885295706
+        Name: Dormitorios
+        m_Value: {fileID: 1591015667}
+    - rid: 2427202910335271483
+      type: {class: 'BlackboardVariable`1[[System.Double, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 13026578029239768027
+          m_Value1: 5384246379734894958
+        Name: Speed
+        m_Value: 3
+    - rid: 2743110094223048838
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 1682650279}
 --- !u!1001 &1696477365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13702,6 +13848,11 @@ MonoBehaviour:
           m_Value1: 7406342218065550764
         Name: Agua
         m_Value: {fileID: 936918654}
+--- !u!4 &2067966891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+  m_PrefabInstance: {fileID: 2067966888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2098301933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13922,4 +14073,5 @@ SceneRoots:
   - {fileID: 1310567563}
   - {fileID: 1423456358}
   - {fileID: 2067966888}
+  - {fileID: 1682650278}
   - {fileID: 1244316406}
