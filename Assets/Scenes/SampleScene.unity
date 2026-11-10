@@ -10892,9 +10892,25 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2900038695898229013, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475787977824429934, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_text
+      value: Larva
+      objectReference: {fileID: 0}
     - target: {fileID: 3895605809112093283, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
       propertyPath: m_Name
       value: Larva
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239690446483546897, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239690446483546897, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -102
       objectReference: {fileID: 0}
     - target: {fileID: 4874263540797209813, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10936,6 +10952,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5108060173338669046, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 536
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10968,6 +10988,7 @@ MonoBehaviour:
   - rid: 2427202910335271482
   - rid: 2427202910335271481
   - rid: 2427202910335271480
+  - rid: 2427202912517882366
   m_OriginalGraph: {fileID: 8020606202947969654, guid: 8edc8b707bd38a34abbac5e5d1a77fef, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -11005,7 +11026,15 @@ MonoBehaviour:
           m_Value0: 13026578029239768027
           m_Value1: 5384246379734894958
         Name: Speed
-        m_Value: 3
+        m_Value: 4
+    - rid: 2427202912517882366
+      type: {class: 'BlackboardVariable`1[[System.Double, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 13869505198038447203
+          m_Value1: 3554260477526164380
+        Name: Hambre
+        m_Value: 0
     - rid: 2743110094223048838
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
