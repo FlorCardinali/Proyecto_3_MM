@@ -10988,7 +10988,9 @@ MonoBehaviour:
   - rid: 2427202910335271482
   - rid: 2427202910335271481
   - rid: 2427202910335271480
-  - rid: 2427202912517882366
+  - rid: 2427202977763426848
+  - rid: 2427202978194129645
+  - rid: 2427202978500051284
   m_OriginalGraph: {fileID: 8020606202947969654, guid: 8edc8b707bd38a34abbac5e5d1a77fef, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -11027,14 +11029,30 @@ MonoBehaviour:
           m_Value1: 5384246379734894958
         Name: Speed
         m_Value: 4
-    - rid: 2427202912517882366
+    - rid: 2427202977763426848
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 6994693624896531132
+          m_Value1: 12023495854555440531
+        Name: Basurero
+        m_Value: {fileID: 1752814265}
+    - rid: 2427202978194129645
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17427605133665892631
+          m_Value1: 7082550794665433528
+        Name: Caca
+        m_Value: {fileID: 5601551917049508266, guid: 28397c33e2cdf364693e125964e541ae, type: 3}
+    - rid: 2427202978500051284
       type: {class: 'BlackboardVariable`1[[System.Double, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Value0: 13869505198038447203
-          m_Value1: 3554260477526164380
-        Name: Hambre
-        m_Value: 0
+          m_Value0: 15444281280998684288
+          m_Value1: 1203862635964728987
+        Name: Popo
+        m_Value: 5
     - rid: 2743110094223048838
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
