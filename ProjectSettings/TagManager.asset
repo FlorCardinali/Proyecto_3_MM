@@ -10,6 +10,7 @@ TagManager:
   - Caca
   - Comida
   - Agua
+  - Larva
   layers:
   - Default
   - TransparentFX

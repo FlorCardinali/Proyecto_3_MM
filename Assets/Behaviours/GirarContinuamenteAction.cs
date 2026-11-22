@@ -29,7 +29,7 @@ public partial class GirarContinuamenteAction : Action
 
         Transform.Value.Rotate(
             Vector3.forward * velocidad * Time.deltaTime,
-            Space.Self
+            Space.Self // Esta es la parte del script que hace que deje de colicionar el sprite con los boreds o objetos del mapa?
         );
 
         return Status.Running;   // Siempre Running → se puede abortar desde el Conditional Guard
