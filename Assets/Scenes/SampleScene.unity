@@ -9754,6 +9754,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4223625240727086061, guid: ec25d2c2dd1064f4db223a16d49d6842, type: 3}
   m_PrefabInstance: {fileID: 1564930141}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1567960837 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4628328487976999501, guid: f8bff09aa189b18409216f30b52548c9, type: 3}
+  m_PrefabInstance: {fileID: 1682650278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1590418881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11009,6 +11014,8 @@ MonoBehaviour:
   - rid: 2427202978500051284
   - rid: 2427202993836785664
   - rid: 2427202994041520433
+  - rid: 2427203179529110258
+  - rid: 2427203184274178161
   m_OriginalGraph: {fileID: 8020606202947969654, guid: 8edc8b707bd38a34abbac5e5d1a77fef, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -11078,7 +11085,7 @@ MonoBehaviour:
           m_Value0: 11223000423263333668
           m_Value1: 7713597847923940722
         Name: Hambe
-        m_Value: 4
+        m_Value: 0
     - rid: 2427202994041520433
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -11087,6 +11094,22 @@ MonoBehaviour:
           m_Value1: 5707515685316201591
         Name: Alimento
         m_Value: {fileID: 5601551917049508266, guid: bd72559663626fd47ba9da59457b6a34, type: 3}
+    - rid: 2427203179529110258
+      type: {class: 'BlackboardVariable`1[[System.Double, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10373862084913405917
+          m_Value1: 8821263474090142765
+        Name: "Sue\xF1o"
+        m_Value: 0
+    - rid: 2427203184274178161
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 2076147515545552496
+          m_Value1: 8716967717126642848
+        Name: Hora de Rotar
+        m_Value: {fileID: 1567960837}
     - rid: 2743110094223048838
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
