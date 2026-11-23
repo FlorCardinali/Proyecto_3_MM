@@ -30,10 +30,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.25, z: 0.303}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 2900038695898229013}
+  m_Children: []
   m_Father: {fileID: 4874263540797209813}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &8987554574762544016
@@ -130,15 +129,15 @@ MonoBehaviour:
   agentePadre: {fileID: 746846405948548623}
   estadoActual: 0
   fotogramasIdle:
-  - {fileID: 2800000, guid: c53f6fb66ba246345883a1bb8dcf7543, type: 3}
-  - {fileID: 2800000, guid: 2b3cc30ba89e0634c90477cbf50dd79c, type: 3}
-  - {fileID: 2800000, guid: d56dd08fa6c6ed64fa5afc32c380101a, type: 3}
-  - {fileID: 2800000, guid: 8b5ed03ed372e7a4594594a0847a6570, type: 3}
+  - {fileID: 2800000, guid: 4bd722d7b03ecb040b0f786144c9aeb1, type: 3}
+  - {fileID: 2800000, guid: a6b91f000cf427b4bb6155eb1d0caed5, type: 3}
+  - {fileID: 2800000, guid: 4da24721909811847b50bc99066713eb, type: 3}
+  - {fileID: 2800000, guid: 1bd1cb9916f2d9247a3ba13fe69ed3da, type: 3}
   fpsIdle: 6
   fotogramasWalk:
-  - {fileID: 2800000, guid: 7db2074b150b9104c94cfe707a805169, type: 3}
-  - {fileID: 2800000, guid: c7573630aa0582f4fbbc7e667d409ed2, type: 3}
-  - {fileID: 2800000, guid: dfc49d157a9cab9478f7f8a9b414a263, type: 3}
+  - {fileID: 2800000, guid: bd0a161807b89f44688ec28861737c04, type: 3}
+  - {fileID: 2800000, guid: 0c7159f0146cb33429cbe6fab8f42168, type: 3}
+  - {fileID: 2800000, guid: f392cf51919d5bb4088cec86a2fe8f50, type: 3}
   fpsWalk: 12
   fotogramasLayDown: []
   fpsLayDown: 4
@@ -168,17 +167,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282994958144175064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000003814698}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0000038146973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2900038695898229013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 72, y: -102}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -339, y: -68}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &7891187745091880226
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -207,7 +206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Pienso...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -313,7 +312,7 @@ RectTransform:
   m_Children:
   - {fileID: 4239690446483546897}
   - {fileID: 5108060173338669046}
-  m_Father: {fileID: 4628328487976999501}
+  m_Father: {fileID: 4874263540797209813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -423,17 +422,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550621169590977031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000003814698}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2900038695898229013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 72, y: -10}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -337, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &5318804101533755617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -462,7 +461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hormiga
+  m_text: Larva
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -566,6 +565,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4628328487976999501}
+  - {fileID: 2900038695898229013}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &476010179986266458
@@ -598,7 +598,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 3895605809112093283}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.2
+  m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
