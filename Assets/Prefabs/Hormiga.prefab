@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4628328487976999501}
   - component: {fileID: 8987554574762544016}
   - component: {fileID: 2128902904307315431}
-  - component: {fileID: 5887884936677002634}
   - component: {fileID: 9162980138903511611}
   m_Layer: 0
   m_Name: Quad
@@ -32,8 +31,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.25, z: 0.303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 2900038695898229013}
+  m_Children: []
   m_Father: {fileID: 4874263540797209813}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &8987554574762544016
@@ -93,28 +91,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5887884936677002634
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275660896270945032}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &9162980138903511611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,7 +289,7 @@ RectTransform:
   m_Children:
   - {fileID: 4239690446483546897}
   - {fileID: 5108060173338669046}
-  m_Father: {fileID: 4628328487976999501}
+  m_Father: {fileID: 4874263540797209813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -566,6 +542,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4628328487976999501}
+  - {fileID: 2900038695898229013}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &476010179986266458
@@ -596,7 +573,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3895605809112093283}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.2
   m_Speed: 3.5

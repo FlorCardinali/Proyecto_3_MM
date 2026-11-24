@@ -12,6 +12,11 @@ public partial class HacerCacaAction : Action
     [SerializeReference] public BlackboardVariable<GameObject> Prefab;
     protected override Status OnStart()
     {
+        if (Prefab.Value == null)
+            return Status.Failure;
+        if (Self.Value == null)
+            return Status.Failure;
+
         UnityEngine.Object.Instantiate(Prefab.Value,
             Self.Value.transform.position,
             Quaternion.identity);

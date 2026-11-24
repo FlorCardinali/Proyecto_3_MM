@@ -14,6 +14,7 @@ public partial class EntregarAguaReinaAction : Action
     protected override Status OnStart()
     {
         if (AguaActual.Value == null) return Status.Failure;
+        if (GameManager.Instancia == null) return Status.Failure;
 
         GameManager.Instancia.EntregarAReina(AguaActual.Value, esComida: false);
         AguaActual.Value = null;

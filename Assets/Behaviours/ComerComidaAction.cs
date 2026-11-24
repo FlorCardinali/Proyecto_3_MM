@@ -14,7 +14,7 @@ public partial class ComerComidaAction : Action
         if (Prefab.Value == null)
         {
             LogFailure("No hay prefab para destruir.");
-            return Status.Running;
+            return Status.Failure;
         }
         GameObject.Destroy(Prefab.Value);
         return Status.Success;

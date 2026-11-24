@@ -15,6 +15,7 @@ public partial class EntregarComidaReinaAction : Action
     protected override Status OnStart()
     {
         if (ComidaActual.Value == null) return Status.Failure;
+        if (GameManager.Instancia == null) return Status.Failure;
 
         GameManager.Instancia.EntregarAReina(ComidaActual.Value, esComida: true);
         ComidaActual.Value = null;
